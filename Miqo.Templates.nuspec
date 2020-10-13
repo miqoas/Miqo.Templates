@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>Miqo.Templates</id>
+    <version>1.1.0</version>
+    <description>
+      Blazor templates for .NET
+    </description>
+    <authors>Ronny Natsuo</authors>
+    <packageTypes>
+      <packageType name="Template" />
+    </packageTypes>
+    <projectUrl>https://github.com/miqoas/Miqo.Templates</projectUrl>
+    <license type="expression">MIT</license>
+  </metadata>
+  <files>
+    <file src="content/**" target="content" />
+  </files>
+</package>

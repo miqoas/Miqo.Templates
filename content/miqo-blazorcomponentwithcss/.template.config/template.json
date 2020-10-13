@@ -1,0 +1,32 @@
+{
+	"$schema": "http://json.schemastore.org/template",
+	"author": "Ronny Natsuo",
+	"classifications": [
+	  "Web",
+	  "Blazor"
+	],
+	"name": "Blazor Component with code-behind and CSS file",
+	"generatorVersions": "[1.0.0.0-*)",
+	"description": "An item template for creating a Blazor Component with a code-behind class and CSS isolated file",
+	"tags": {
+	  "language": "C#",
+	  "type": "item"
+	},
+	"groupIdentity": "Miqo.Templates.BlazorComponentWithCss",
+	"identity": "Miqo.Templates.BlazorComponentWithCss",
+	"shortName": "miqo-blazorcss",
+	"sourceName": "ComponentName",
+	"primaryOutputs": [
+		{ "path": "ComponentName.razor" },
+		{ "path": "ComponentName.razor.cs" },
+		{ "path": "ComponentName.razor.css" }
+	],
+	"defaultName": "Component",
+	"symbols": {
+		"namespace": {
+		  "description": "namespace for the generated component",
+		  "replaces": "MyApp.Namespace",
+		  "type": "parameter"
+		}
+	}
+}
