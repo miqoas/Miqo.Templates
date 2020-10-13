@@ -26,6 +26,8 @@ This will create a new Blazor component with a code-behind and CSS file in the c
 dotnet new miqo-blazorcss -n Alerts
 ```
 
-## Notes
+You can set the component's namespace with the '-namespace' option like this:
 
-You currently have to set the component's .cs file namespace manually.
+```bash
+dotnet new miqo-blazorcss -n Alerts -namespace SpiffyApp
+```
